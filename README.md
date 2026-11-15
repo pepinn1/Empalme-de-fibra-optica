@@ -15,8 +15,16 @@
 ## Equipamiento y herramientas
 * **Peladora de fibra (Strippers):** Su funcion basicamente es pelar la cobertura del cable para dejar descubierta la capa interior y poder cortarla despues
 * **Cleaver:** Corta físicamente la fibra óptica con una cuchilla de alta precisión para que la cara final de la fibra quede plana y asi facilitar la conexion de esta.
-* **Alcohol isopropilico de alta pureza;** Para limpiar la fibra y que no queden rastros de suciedad ni pelusas que puedan entorpecer el resultado final.
+* **Alcohol isopropilico de alta pureza:** Para limpiar la fibra y que no queden rastros de suciedad ni pelusas que puedan entorpecer el resultado final.
 * **Fusionadora de fibra optica (Splicer):** Une las fibras fundiendolas con un arco eléctrico de alta precisión formando una unica fibra continua.
+* **manguito termocontraible:** Protege, refuerza y sella el punto exacto donde se unen dos fibras mediante una fusion.
+
+
+## Paso a paso
+* Primero se debe sacar la primera capa de proteccion (normalmente es de color negro) para poder liberar su interior, esto lo podemos hacer con un caiman, cutter o una peladora.
+* Seguido a esto debemos separar los cables trenzados que normalmente tiene vaselina haciendo incomodo de manejar, por lo que se deberia limpiar con un paño u papel con alcohol para quitar el exceso de esta.
+* Ya con los filamentos separados se debe quitar la capa protectora que tiene para dejar el nucleo expuesto, al dejarlo expuesto se debe limpiar con alcohol isopropolico para eliminar asi las impurezas que puedan haber, una vez los filamentos de la fibra estan con el nucleo expuesto se debe colocar con cuidado en la cleaver ya que se necesita hacer un corte de 90° para poder hacer la fusion de la fibra, despues de hacer el corte se debe limpiar para eliminar las impurezas.
+* Para finalizar, una vez con los filamentos cortados, con el nucleo expuesto y limpiados se pasa a la fusionadora donde se tiene que alinear de la mejor manera posible en los extremos los filamentos para que la fusion se haga correctamente sin olvidar de colocar el manguito termocontraible el cual se puede colocar una vez fusionada la fibra, este debe quedar en donde se une la fibra para poder proteger la fusion, luego de hacer la fibra y colocar el protector se debe pasar al "horno" donde se coloca el filamento donde este va a calentar el protector y se "adhiera" al filamento protegiendolo, conlcuyendo con esto.
 
 
 ## Glosario-técnico
