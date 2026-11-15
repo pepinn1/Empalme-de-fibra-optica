@@ -1,4 +1,4 @@
-# Fusión-de-fibra-optica
+# Fusión de fibra optica
 ## Autor: Felipe-Díaz
 
 ## ¿Qué es la fusión de la fibra optica?
