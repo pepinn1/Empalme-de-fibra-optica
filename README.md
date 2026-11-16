@@ -62,3 +62,5 @@ Si no se usa el alcohol con los paños libres de pelusas los filamentos pueden q
 * **Atenuacion:** Es la perdida de potencia que sufre la señal luminosa a medida que viaja a lo largo del cable.
 
 * **Manguito termocontraible:** es un elemento de protección indispensable que se utiliza para blindar y reforzar los empalmes por fusión entre dos hilos de fibra óptica.
+
+<img src=assets/img/IMG_20261112_154518.jpg alr=9 width=250>
