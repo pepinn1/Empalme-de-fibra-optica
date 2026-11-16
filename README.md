@@ -13,8 +13,7 @@
   
 * **Chaqueta de seguridad (o chaleco tipo geólogo):** Utilizada para optimizar el orden en el puesto de trabajo, permitiendo portar de forma accesible los manguitos de fusión y consumibles menores en sus bolsillos, además de proteger la ropa de geles y residuos.
 
-[!warning]
-Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños sin darse cuenta ya que la fibra es dificil de visibilizar en la mayoria de los casos. Sin olvidar que primero esta la seguridad de uno.
+[!warning Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños sin darse cuenta ya que la fibra es dificil de visibilizar en la mayoria de los casos. Sin olvidar que primero esta la seguridad de uno.]
 
 
 
