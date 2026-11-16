@@ -97,3 +97,64 @@ Para fibras **Multimodo**, el límite máximo aceptable por normativa suele exte
 * **Limitación de la fusionadora:** El valor que muestra la fusionadora es una **estimación óptica basada en imagen**, no una medición real de potencia.
 
 * **Validación final:** Para certificar la calidad real del enlace completo (incluyendo manguitos, conectores y atenuación por kilómetro), siempre se debe complementar este registro con una prueba de **OTDR** o un **medidor de potencia (Power Meter)**.
+
+## 7. Presupuesto optico
+
+Para garantizar la viabilidad operativa de una red **GPON** (Gigabit Passive Optical Network), se debe calcular la atenuación total teórica del enlace desde la **OLT** hasta la **ONT** y verificar que no supere el presupuesto de potencia de la clase óptica utilizada (generalmente **Clase B+** o **Clase C+**).
+
+### 1. Fórmula General de Atenuación Total
+
+$$\text{Pérdida Total (dB)} = (L \times \alpha_{\text{fibra}}) + (N_e \times \alpha_{\text{empalme}}) + (N_c \times \alpha_{\text{conector}}) + \alpha_{\text{splitters}} + M_{\text{seguridad}}$$
+
+Donde:
+* **$L$**: Longitud total del enlace en kilómetros ($\text{km}$).
+* **$\alpha_{\text{fibra}}$**: Atenuación por kilómetro según longitud de onda.
+* **$N_e$**: Cantidad total de empalmes por fusión.
+* **$\alpha_{\text{empalme}}$**: Pérdida máxima teórica por empalme.
+* **$N_c$**: Cantidad de pares de conectores acoplados.
+* **$\alpha_{\text{conector}}$**: Pérdida teórica por conector.
+* **$\alpha_{\text{splitters}}$**: Atenuación acumulada de los divisores ópticos.
+* **$M_{\text{seguridad}}$**: Margen de reserva para mantenimiento, envejecimiento y temperatura.
+
+### 2. Valores Estándar de Diseño (Normativa ITU-T)
+
+| Componente / Parámetro | Valor Teórico Estándar | Observaciones Técnicas |
+| :--- | :--- | :--- |
+| **Fibra Monomodo (1310 nm - Upstream)** | **0.35 dB/km** | Longitud de onda de subida (ONT $\rightarrow$ OLT). Es la más crítica por tener mayor atenuación. |
+| **Fibra Monomodo (1490 nm - Downstream)** | **0.25 dB/km** | Longitud de onda de bajada (OLT $\rightarrow$ ONT). |
+| **Empalme por Fusión** | **0.05 dB – 0.10 dB** | En diseño teórico conservador se calcula con **0.10 dB** por fusión. |
+| **Conector Óptico (SC/APC o LC/APC)** | **0.25 dB – 0.50 dB** | Estándar TIA-568 permite hasta **0.50 dB** por par acoplado. |
+| **Splitter 1:2 / 1:4 / 1:8** | **3.5 dB / 7.2 dB / 10.5 dB** | Valores típicos de inserción (sin considerar pérdidas por conectorización). |
+| **Splitter 1:16 / 1:32 / 1:64** | **13.5 dB / 17.0 dB / 20.5 dB** | En redes GPON estándar, el splitteo total máximo suele ser **1:64** o **1:128**. |
+| **Margen de Seguridad GPON** | **3.00 dB** | Reserva obligatoria para futuras reparaciones (nuevos empalmes) y degradación del láser. |
+
+### 3. Presupuesto Óptico según Clase GPON (ITU-T G.984.2)
+
+El cálculo de pérdidas teóricas más el margen de seguridad debe ser **menor o igual** al presupuesto máximo permitido por el módulo SFP de la OLT:
+
+* **Clase B+ (Más común):** Presupuesto máximo de **28.0 dB** *(Potencia Tx OLT: +1.5 a +5 dBm | Sensibilidad Rx ONT: -27 dBm)*.
+* **Clase C+ (Alta potencia):** Presupuesto máximo de **32.0 dB** *(Potencia Tx OLT: +3.0 a +7 dBm | Sensibilidad Rx ONT: -30 dBm)*.
+
+### 4. Ejemplo Práctico de Cálculo (Enlace de 5 km)
+
+Supongamos un enlace FTTH con las siguientes características:
+* **Distancia ($L$):** $5\text{ km}$
+* **Empalmes ($N_e$):** $6\text{ fusiones}$
+* **Conectores ($N_c$):** $4\text{ conectores}$ (ODF, Mufa, NAP, Roseta)
+* **División (Splitteo):** 1 Splitter de **1:8** + 1 Splitter de **1:8** (Equivalente a 1:64)
+* **Margen de Seguridad:** $3.0\text{ dB}$
+
+#### Desglose del Cálculo (Peor Caso: 1310 nm - Upstream):
+1. **Atenuación por Fibra:** $5\text{ km} \times 0.35\text{ dB/km} = \mathbf{1.75\text{ dB}}$
+2. **Atenuación por Empalmes:** $6 \times 0.10\text{ dB} = \mathbf{0.60\text{ dB}}$
+3. **Atenuación por Conectores:** $4 \times 0.50\text{ dB} = \mathbf{2.00\text{ dB}}$
+4. **Atenuación por Splitters:** $10.5\text{ dB} + 10.5\text{ dB} = \mathbf{21.00\text{ dB}}$
+5. **Margen de Seguridad GPON:** $\mathbf{3.00\text{ dB}}$
+
+$$\text{Pérdida Total Teórica (1310 nm)} = 1.75 + 0.60 + 2.00 + 21.00 + 3.00 = \mathbf{28.35\text{ dB}}$$
+
+*(Nota: En bajada a **1490 nm** con $0.25\text{ dB/km}$, la pérdida total sería de **27.85 dB**).*
+
+#### Dictamen de Ingeniería:
+* **No viable con Clase B+ (28.0 dB):** En subida (1310 nm) se excede el presupuesto máximo por **0.35 dB**, lo que provocaría pérdida de paquetes o caída de sincronismo en la ONT.
+* **Solución recomendada:** Instalar un módulo SFP **GPON Clase C+ (32.0 dB)** en la OLT para obtener un **margen operativo libre de 3.65 dB** adicionales.
