@@ -46,6 +46,7 @@ Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños s
 * Ya con los filamentos separados se debe quitar la capa protectora que tiene para dejar el nucleo expuesto, al dejarlo expuesto se debe limpiar con alcohol isopropilico para eliminar asi las impurezas que puedan haber, una vez los filamentos de la fibra estan con el nucleo expuesto se debe colocar con cuidado en la cleaver ya que se necesita hacer un corte de 90° exactos para poder hacer la fusion de la fibra, despues de hacer el corte se debe limpiar para eliminar las impurezas.
 
 <img src=assets/img/4febd963-3de9-452e-bf23-19d4195bc458.jfif alt=0 width=250>
+
 >[!note]
 Si no se usa el alcohol con los paños libres de pelusas los filamentos pueden quedar con impurezas y afectar a la union de estos, por eso es tan importante el uso de destos elementos.
 
