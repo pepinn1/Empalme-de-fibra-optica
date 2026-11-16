@@ -80,7 +80,7 @@ Para evaluar y registrar la calidad de un empalme en fibra óptica utilizando lo
 | **0.06 dB – 0.10 dB** | **Regular (Marginal)** | Aceptable solo en redes de corta distancia (FTTH/LAN) si el presupuesto óptico lo permite. Evaluar rehacer. |
 | **Mayor a 0.10 dB** | **Deficiente (Rechazado)** | Posible suciedad, mal corte (ángulo > 1°), burbujas o desalineación. **Cortar y repetir fusión**. |
 
-<[note]
+>[note]
 Para fibras **Multimodo**, el límite máximo aceptable por normativa suele extenderse hasta **0.10 dB – 0.15 dB**, aunque una buena fusionadora moderna logra valores menores a **0.03 dB**).
 
 # 2. Plantilla de Registro de Empalmes
