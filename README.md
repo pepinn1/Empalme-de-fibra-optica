@@ -80,7 +80,7 @@ Para evaluar y registrar la calidad de un empalme en fibra óptica utilizando lo
 | **0.06 dB – 0.10 dB** | **Regular (Marginal)** | Aceptable solo en redes de corta distancia (FTTH/LAN) si el presupuesto óptico lo permite. Evaluar rehacer. |
 | **Mayor a 0.10 dB** | **Deficiente (Rechazado)** | Posible suciedad, mal corte (ángulo > 1°), burbujas o desalineación. **Cortar y repetir fusión**. |
 
->[note]
+>[!note]
 Para fibras **Multimodo**, el límite máximo aceptable por normativa suele extenderse hasta **0.10 dB – 0.15 dB**, aunque una buena fusionadora moderna logra valores menores a **0.03 dB**).
 
 ### 2. Plantilla de Registro de Empalmes
@@ -153,8 +153,6 @@ Supongamos un enlace FTTH con las siguientes características:
 
 $$\text{Pérdida Total Teórica (1310 nm)} = 1.75 + 0.60 + 2.00 + 21.00 + 3.00 = \mathbf{28.35\text{ dB}}$$
 
-*(Nota: En bajada a **1490 nm** con $0.25\text{ dB/km}$, la pérdida total sería de **27.85 dB**).*
+>[!note]
+>En bajada a **1490 nm** con $0.25\text{ dB/km}$, la pérdida total sería de **27.85 dB**.
 
-#### Dictamen de Ingeniería:
-* **No viable con Clase B+ (28.0 dB):** En subida (1310 nm) se excede el presupuesto máximo por **0.35 dB**, lo que provocaría pérdida de paquetes o caída de sincronismo en la ONT.
-* **Solución recomendada:** Instalar un módulo SFP **GPON Clase C+ (32.0 dB)** en la OLT para obtener un **margen operativo libre de 3.65 dB** adicionales.
