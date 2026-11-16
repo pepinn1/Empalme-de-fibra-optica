@@ -65,7 +65,7 @@ Si no se usa el alcohol con los paños libres de pelusas los filamentos pueden q
 
 <img src=assets/img/IMG_20261112_154518.jpg alr=9 width=250>
 
-## 6. Valores de perdida estimados##
+## 6. Valores de perdida estimados
 
 ### Registro y Análisis de Pérdida en Empalmes de Fibra Óptica
 
@@ -93,7 +93,6 @@ Para fibras **Multimodo**, el límite máximo aceptable por normativa suele exte
 * **Estado Visual en Pantalla:** Verificar ausencia de burbujas, engrosamientos o adelgazamientos en el núcleo.
 * **Dictamen:** *Aprobado / Rechazado*.
 
-### 3. Factores Clave para el Análisis Técnico
-
-* **Limitación de la fusionadora:** El valor que muestra la fusionadora es una **estimación óptica basada en imagen**, no una medición real de potencia.
-* **Validación final:** Para certificar la calidad real del enlace completo (incluyendo manguitos, conectores y atenuación por kilómetro), siempre se debe complementar este registro con una prueba de **OTDR** o un **medidor de potencia (Power Meter)**.
+>[note]
+Limitación de la fusionadora:** El valor que muestra la fusionadora es una **estimación óptica basada en imagen**, no una medición real de potencia.
+Validación final: Para certificar la calidad real del enlace completo (incluyendo manguitos, conectores y atenuación por kilómetro), siempre se debe complementar este registro con una prueba de **OTDR** o un **medidor de potencia (Power Meter)**.
