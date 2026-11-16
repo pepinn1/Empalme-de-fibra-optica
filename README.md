@@ -25,7 +25,7 @@ Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños s
   
 * **Alcohol isopropilico de alta pureza y paños libres de pelusas:** Para limpiar la fibra y que no queden rastros de suciedad ni pelusas que puedan entorpecer el resultado final.
 
-  <img src=assets/img/IMG_20261112_154532.jpg alt=0 width=250
+  <img src=assets/img/IMG_20261112_154532.jpg alt=1 width=250>
   
 * **Fusionadora de fibra optica (Splicer):** Une las fibras fundiendolas con un arco eléctrico de alta precisión formando una unica fibra continua.
   
