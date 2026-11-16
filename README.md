@@ -45,6 +45,7 @@ Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños s
 
 * Ya con los filamentos separados se debe quitar la capa protectora que tiene para dejar el nucleo expuesto, al dejarlo expuesto se debe limpiar con alcohol isopropilico para eliminar asi las impurezas que puedan haber, una vez los filamentos de la fibra estan con el nucleo expuesto se debe colocar con cuidado en la cleaver ya que se necesita hacer un corte de 90° exactos para poder hacer la fusion de la fibra, despues de hacer el corte se debe limpiar para eliminar las impurezas.
 
+<img src=assets/img/4febd963-3de9-452e-bf23-19d4195bc458.jfif alt=0 width=250>
 
 * Para finalizar, una vez con los filamentos cortados, con el nucleo expuesto y limpiados se pasa a la fusionadora donde se tiene que alinear de la mejor manera posible en los extremos los filamentos para que la fusion se haga correctamente sin olvidar de colocar el manguito termocontraible el cual se puede colocar una vez fusionada la fibra, este debe quedar en donde se une la fibra para poder proteger la fusion, luego de unir la fibra y colocar el protector se debe pasar al "horno" donde se coloca el filamento el cual se calentara el protector y se "adherira" al filamento protegiendolo, concluyendo con esto.
 
