@@ -67,11 +67,11 @@ Si no se usa el alcohol con los paños libres de pelusas los filamentos pueden q
 
 ## 6. Valores de perdida estimados##
 
-# Registro y Análisis de Pérdida en Empalmes de Fibra Óptica
+### Registro y Análisis de Pérdida en Empalmes de Fibra Óptica
 
 Para evaluar y registrar la calidad de un empalme en fibra óptica utilizando los datos de la fusionadora, es necesario contrastar el valor de pérdida estimada (en decibelios, **dB**) con los estándares internacionales (como **TIA-568** o **ITU-T**).
 
-# 1. Tabla de Referencia: Análisis de Calidad por Pérdida Estimada
+### 1. Tabla de Referencia: Análisis de Calidad por Pérdida Estimada
 
 | Pérdida Estimada (dB) | Clasificación / Calidad | Diagnóstico Técnico y Acción Recomendada |
 | :--- | :--- | :--- |
@@ -83,7 +83,7 @@ Para evaluar y registrar la calidad de un empalme en fibra óptica utilizando lo
 >[note]
 Para fibras **Multimodo**, el límite máximo aceptable por normativa suele extenderse hasta **0.10 dB – 0.15 dB**, aunque una buena fusionadora moderna logra valores menores a **0.03 dB**).
 
-# 2. Plantilla de Registro de Empalmes
+### 2. Plantilla de Registro de Empalmes
 
 * **Identificación del Enlace / Tramo:** (Ej. *Nodo Central – Caja NAP 04*)
 * **Número de Hilo / Código de Color:** (Ej. *Hilo 1 - Azul*)
@@ -93,7 +93,7 @@ Para fibras **Multimodo**, el límite máximo aceptable por normativa suele exte
 * **Estado Visual en Pantalla:** Verificar ausencia de burbujas, engrosamientos o adelgazamientos en el núcleo.
 * **Dictamen:** *Aprobado / Rechazado*.
 
-# 3. Factores Clave para el Análisis Técnico
+### 3. Factores Clave para el Análisis Técnico
 
 * **Limitación de la fusionadora:** El valor que muestra la fusionadora es una **estimación óptica basada en imagen**, no una medición real de potencia.
 * **Validación final:** Para certificar la calidad real del enlace completo (incluyendo manguitos, conectores y atenuación por kilómetro), siempre se debe complementar este registro con una prueba de **OTDR** o un **medidor de potencia (Power Meter)**.
