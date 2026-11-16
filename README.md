@@ -138,6 +138,10 @@ Supongamos un enlace FTTH con las siguientes características:
 3. **Atenuación por Conectores:** $4 \times 0.50\text{ dB} = \mathbf{2.00\text{ dB}}$
 4. **Atenuación por Splitters:** $10.5\text{ dB} + 10.5\text{ dB} = \mathbf{21.00\text{ dB}}$
 5. **Margen de Seguridad GPON:** $\mathbf{3.00\text{ dB}}$
+6. $$\text{Pérdida Total Teórica (1310 nm)} = 1.75 + 0.60 + 2.00 + 21.00 + 3.00 = \mathbf{28.35\text{ dB}}$$
+
+>[!note]
+>En bajada a **1490 nm** con $0.25\text{ dB/km}$, la pérdida total sería de **27.85 dB**.
 
 ## 7. Glosario-técnico
 * **Núcleo (Core):** Filamento central hecho a partir de vidrio o plastico que recibe las señales de luz con el fin de transmitirlo en datos.
@@ -152,8 +156,5 @@ Supongamos un enlace FTTH con las siguientes características:
 
 <img src=assets/img/IMG_20261112_154518.jpg alr=9 width=250>
 
-$$\text{Pérdida Total Teórica (1310 nm)} = 1.75 + 0.60 + 2.00 + 21.00 + 3.00 = \mathbf{28.35\text{ dB}}$$
 
->[!note]
->En bajada a **1490 nm** con $0.25\text{ dB/km}$, la pérdida total sería de **27.85 dB**.
 
