@@ -13,7 +13,8 @@
   
 * **Chaqueta de seguridad (o chaleco tipo geólogo):** Utilizada para optimizar el orden en el puesto de trabajo, permitiendo portar de forma accesible los manguitos de fusión y consumibles menores en sus bolsillos, además de proteger la ropa de geles y residuos.
 
-[!warning Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños sin darse cuenta ya que la fibra es dificil de visibilizar en la mayoria de los casos. Sin olvidar que primero esta la seguridad de uno.]
+>[!warning]
+Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños sin darse cuenta ya que la fibra es dificil de visibilizar en la mayoria de los casos. Sin olvidar que primero esta la seguridad de uno.
 
 
 
@@ -43,7 +44,7 @@
 
 * Para finalizar, una vez con los filamentos cortados, con el nucleo expuesto y limpiados se pasa a la fusionadora donde se tiene que alinear de la mejor manera posible en los extremos los filamentos para que la fusion se haga correctamente sin olvidar de colocar el manguito termocontraible el cual se puede colocar una vez fusionada la fibra, este debe quedar en donde se une la fibra para poder proteger la fusion, luego de unir la fibra y colocar el protector se debe pasar al "horno" donde se coloca el filamento el cual se calentara el protector y se "adherira" al filamento protegiendolo, concluyendo con esto.
 
-[!warning]
+>[!note]
 Si no se usa el alcohol con los paños libres de pelusas los filamentos pueden quedar con impurezas y afectar a la union de estos, por eso es tan importante el uso de destos elementos.
 
 ## 5. Glosario-técnico
