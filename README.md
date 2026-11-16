@@ -24,6 +24,7 @@
 
 ## 4. Paso a paso
 * Primero se debe sacar la primera capa de proteccion (normalmente es de color negro) para poder liberar su interior, esto lo podemos hacer con un caiman, cutter o una peladora.
+* IMG_20261112_154527.jpg
 * Seguido a esto debemos separar los cables trenzados que normalmente tiene vaselina haciendo incomodo de manejar, por lo que se deberia limpiar con un paño u papel con alcohol para quitar el exceso de esta.
 * Ya con los filamentos separados se debe quitar la capa protectora que tiene para dejar el nucleo expuesto, al dejarlo expuesto se debe limpiar con alcohol isopropilico para eliminar asi las impurezas que puedan haber, una vez los filamentos de la fibra estan con el nucleo expuesto se debe colocar con cuidado en la cleaver ya que se necesita hacer un corte de 90° para poder hacer la fusion de la fibra, despues de hacer el corte se debe limpiar para eliminar las impurezas.
 * Para finalizar, una vez con los filamentos cortados, con el nucleo expuesto y limpiados se pasa a la fusionadora donde se tiene que alinear de la mejor manera posible en los extremos los filamentos para que la fusion se haga correctamente sin olvidar de colocar el manguito termocontraible el cual se puede colocar una vez fusionada la fibra, este debe quedar en donde se une la fibra para poder proteger la fusion, luego de unir la fibra y colocar el protector se debe pasar al "horno" donde se coloca el filamento el cual se calentara el protector y se "adherira" al filamento protegiendolo, concluyendo con esto.
