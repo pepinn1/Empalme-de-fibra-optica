@@ -52,20 +52,8 @@ Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños s
 >[!note]
 Si no se usa el alcohol con los paños libres de pelusas los filamentos pueden quedar con impurezas y afectar a la union de estos, por eso es tan importante el uso de destos elementos.
 
-## 5. Glosario-técnico
-* **Núcleo (Core):** Filamento central hecho a partir de vidrio o plastico que recibe las señales de luz con el fin de transmitirlo en datos.
-  
-* **Revestimiento (Cladding):** Confina la luz dentro del núcleo garantizando que la transmisión sea eficiente y con baja pérdida.
-  
-* **Recubrimiento (Coating):** Capa que protege al núcleo y al revestimiento de arañazos, humedad y microplegamiento que podrían provocar la rotura de la fibra.
-  
-* **Atenuacion:** Es la perdida de potencia que sufre la señal luminosa a medida que viaja a lo largo del cable.
 
-* **Manguito termocontraible:** es un elemento de protección indispensable que se utiliza para blindar y reforzar los empalmes por fusión entre dos hilos de fibra óptica.
-
-<img src=assets/img/IMG_20261112_154518.jpg alr=9 width=250>
-
-## 6. Valores de perdida estimados
+## 5. Valores de perdida estimados
 
 ### Registro y Análisis de Pérdida en Empalmes de Fibra Óptica
 
@@ -150,6 +138,19 @@ Supongamos un enlace FTTH con las siguientes características:
 3. **Atenuación por Conectores:** $4 \times 0.50\text{ dB} = \mathbf{2.00\text{ dB}}$
 4. **Atenuación por Splitters:** $10.5\text{ dB} + 10.5\text{ dB} = \mathbf{21.00\text{ dB}}$
 5. **Margen de Seguridad GPON:** $\mathbf{3.00\text{ dB}}$
+
+## 7. Glosario-técnico
+* **Núcleo (Core):** Filamento central hecho a partir de vidrio o plastico que recibe las señales de luz con el fin de transmitirlo en datos.
+  
+* **Revestimiento (Cladding):** Confina la luz dentro del núcleo garantizando que la transmisión sea eficiente y con baja pérdida.
+  
+* **Recubrimiento (Coating):** Capa que protege al núcleo y al revestimiento de arañazos, humedad y microplegamiento que podrían provocar la rotura de la fibra.
+  
+* **Atenuacion:** Es la perdida de potencia que sufre la señal luminosa a medida que viaja a lo largo del cable.
+
+* **Manguito termocontraible:** es un elemento de protección indispensable que se utiliza para blindar y reforzar los empalmes por fusión entre dos hilos de fibra óptica.
+
+<img src=assets/img/IMG_20261112_154518.jpg alr=9 width=250>
 
 $$\text{Pérdida Total Teórica (1310 nm)} = 1.75 + 0.60 + 2.00 + 21.00 + 3.00 = \mathbf{28.35\text{ dB}}$$
 
