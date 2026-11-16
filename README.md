@@ -64,3 +64,36 @@ Si no se usa el alcohol con los paños libres de pelusas los filamentos pueden q
 * **Manguito termocontraible:** es un elemento de protección indispensable que se utiliza para blindar y reforzar los empalmes por fusión entre dos hilos de fibra óptica.
 
 <img src=assets/img/IMG_20261112_154518.jpg alr=9 width=250>
+
+## 6. Valores de perdida estimados##
+
+# Registro y Análisis de Pérdida en Empalmes de Fibra Óptica
+
+Para evaluar y registrar la calidad de un empalme en fibra óptica utilizando los datos de la fusionadora, es necesario contrastar el valor de pérdida estimada (en decibelios, **dB**) con los estándares internacionales (como **TIA-568** o **ITU-T**).
+
+# 1. Tabla de Referencia: Análisis de Calidad por Pérdida Estimada
+
+| Pérdida Estimada (dB) | Clasificación / Calidad | Diagnóstico Técnico y Acción Recomendada |
+| :--- | :--- | :--- |
+| **0.00 dB – 0.02 dB** | **Excelente (Óptimo)** | Alineación de núcleos perfecta. **Aprobar** y colocar manguito termocontraíble. |
+| **0.03 dB – 0.05 dB** | **Bueno (Aceptable)** | Dentro del estándar para enlaces monomodo de larga distancia. **Aprobar**. |
+| **0.06 dB – 0.10 dB** | **Regular (Marginal)** | Aceptable solo en redes de corta distancia (FTTH/LAN) si el presupuesto óptico lo permite. Evaluar rehacer. |
+| **Mayor a 0.10 dB** | **Deficiente (Rechazado)** | Posible suciedad, mal corte (ángulo > 1°), burbujas o desalineación. **Cortar y repetir fusión**. |
+
+<[note]
+Para fibras **Multimodo**, el límite máximo aceptable por normativa suele extenderse hasta **0.10 dB – 0.15 dB**, aunque una buena fusionadora moderna logra valores menores a **0.03 dB**).
+
+# 2. Plantilla de Registro de Empalmes
+
+* **Identificación del Enlace / Tramo:** (Ej. *Nodo Central – Caja NAP 04*)
+* **Número de Hilo / Código de Color:** (Ej. *Hilo 1 - Azul*)
+* **Tipo de Fibra:** (Ej. *Monomodo G.652.D / Multimodo OM3*)
+* **Ángulo de Corte (Izq. / Der.):** Debe ser idealmente **menor a 0.5°** (máximo tolerado 1.0°).
+* **Pérdida Estimada (dB):** Valor arrojado por la máquina tras el arco eléctrico.
+* **Estado Visual en Pantalla:** Verificar ausencia de burbujas, engrosamientos o adelgazamientos en el núcleo.
+* **Dictamen:** *Aprobado / Rechazado*.
+
+# 3. Factores Clave para el Análisis Técnico
+
+* **Limitación de la fusionadora:** El valor que muestra la fusionadora es una **estimación óptica basada en imagen**, no una medición real de potencia.
+* **Validación final:** Para certificar la calidad real del enlace completo (incluyendo manguitos, conectores y atenuación por kilómetro), siempre se debe complementar este registro con una prueba de **OTDR** o un **medidor de potencia (Power Meter)**.
