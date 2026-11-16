@@ -28,6 +28,8 @@ Si no se usan los epp correctamente, o se omite su uso se pueden sufrir daños s
   <img src=assets/img/IMG_20261112_154532.jpg alt=1 width=250>
   
 * **Fusionadora de fibra optica (Splicer):** Une las fibras fundiendolas con un arco eléctrico de alta precisión formando una unica fibra continua.
+
+  <img src=assets/img/d9783a9d-8291-40cc-9898-7113218e4624.jfif alt=0 width=250>
   
 * **manguito termocontraible:** Protege, refuerza y sella el punto exacto donde se unen dos fibras mediante una fusion.
   
